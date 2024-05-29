@@ -1,0 +1,144 @@
+/* Home.module.css */
+.home {
+    /* Estilos para la vista principal de la aplicación */
+    /* Aun en desarrollo */
+  }
+  
+
+  
+/* Footer  */
+footer {
+  min-height: 250px;
+  background-color: #7525a7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.footer-ul {
+  width: 170px;
+  list-style-type: none;
+  padding: 10px;
+}
+.footer-li {
+  padding: 5px 0;
+}
+.footer-main-item {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.footer-a {
+  color: white;
+  text-decoration: none;
+}
+.footer-copyright {
+  width: 1080px;
+  border-top: 1px solid #ba53fb;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Styles */
+
+header {
+  width: 100%;
+  background-color: #ff3b3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerContainer {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.headerlogo, .headerform, .headersocial {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-decoration: none;
+
+}
+
+.headerForm {
+  justify-content: center;
+}
+.headerInput {
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.headerForm {
+  flex-grow: 1;
+  margin:40px;
+}
+
+.headerSocial {
+  justify-content: flex-end;
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.headerLi, .headerA, .headerSocialImg {
+  width: 50px;
+}
+.headerSocialImg {
+  padding: 10px;
+}
+
+
+.main {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+.featuredProducts {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.product {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.productImage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+.productName {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.productDescription {
+  font-size: 16px;
+  margin: 0;
+}
